@@ -1,39 +1,4 @@
-<!-- // session_start();
-// if (!isset($_SESSION["produtos"])){
-//     $_SESSION["produtos"]=[];
-// }
 
-// if(
-//     isset($_GET["ano"])&&
-//     isset($_GET["valor"])&&
-//     isset($_GET["operador"])
-// ){
-
-//    $produto=[
-//     "ano"=> $_GET["ano"],
-//     "valor"=>$_GET["valor"],
-//     "operador"=>$_GET["operador"]
-//    ];
-//    $_SESSION["produtos"][]=$produto;
-// }
-
-// $somacarros=0;
-// $somatotal=0;
-
-// echo "<h1>Resultado</h1>";
-// foreach($_SESSION["protudos"] as $p){
-//     if($p["ano"] <=2000 ){
-//         $desconto={$p["valor"]} * 0.12;
-
-//         $somacarros++;
-//         }else{
-//             $desconto={$p["valor"]} * 0.17;
-            
-//         }
-//         $valorfinal=$valor -$desconto;
-// }
-// echo "Total Aptos: $totalapto ";
-// echo "Total não aptos:  $totalnaoapto" -->
 <?php
 session_start();
 
